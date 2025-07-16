@@ -23,7 +23,7 @@ if [[ ! -f "$CONF_FILE" ]]; then
     exit 1
 fi
 
-# Check if FortiClient CLI exists
+# Check if Forticlient CLI exists
 if [[ ! -x "$FCCONFIG" ]]; then
     echo "FortiClient CLI not found or not executable at $FCCONFIG"
     exit 1
